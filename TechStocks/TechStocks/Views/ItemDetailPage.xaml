@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TechStocks.Views.ItemDetailPage"
+             Title="{Binding Title}">
+
+    <StackLayout Spacing="20" Padding="15">
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Company:"
+                 FontSize="Medium" 
+                 FontAttributes="Bold"
+                 />
+          <Label Text="{Binding Stock.Company}"
+                 FontSize="Medium"               
+                 FontAttributes="Bold" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Ticker Symbol:" 
+                 FontSize="Medium" 
+                 FontAttributes="Bold"/>
+            <!--<Label Text="{Binding Stock.Symbol}" FontSize="Medium"/>-->
+           <Label Text="{Binding Stock.Symbol}"                                
+                                LineBreakMode="NoWrap"
+                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                FontSize="16" 
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                HorizontalOptions="Center"
+                                BackgroundColor="DodgerBlue"/>
+        </StackLayout>
+        <WebView Source="{Binding Stock.Url}" HeightRequest="500"
+                 WidthRequest="500"></WebView>
+    </StackLayout>
+    
+</ContentPage>
