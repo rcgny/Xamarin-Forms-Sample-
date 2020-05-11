@@ -10,7 +10,7 @@ namespace TechStocks.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://xamarin.com"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://github.com/rcgny/Xamarin-Forms-Sample-/tree/master/TechStocks"));
         }
 
         public ICommand OpenWebCommand { get; }
