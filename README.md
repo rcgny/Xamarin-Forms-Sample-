@@ -16,9 +16,10 @@ Windows 10 OS. VS2019 with mobile package installed.
 * [Xamarin Forms](https://dotnet.microsoft.com/apps/xamarin/xamarin-forms) - An open-source framework for building iOS, Android, and Windows apps
 
 ## App running in Android Emulator
- ~~~
-
- ~~~
+ 
+![tiger](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+ 
+ ![a1](https://github.com/rcgny/Xamarin-Forms-Sample-/blob/master/Docs/Android1.jpg)
 
 ## App running in Windows
  
