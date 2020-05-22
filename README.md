@@ -17,12 +17,14 @@ Windows 10 OS. VS2019 with mobile package installed.
 
 ## App running in Android Emulator
  
-![tiger](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
- 
- ![a1](https://github.com/rcgny/Xamarin-Forms-Sample-/blob/master/Docs/Android1.jpg)
+  ![Android Main Screen](https://raw.githubusercontent.com/rcgny/Xamarin-Forms-Sample-/master/Docs/Android1.png)
+
+  ![Android Detail Screen](https://raw.githubusercontent.com/rcgny/Xamarin-Forms-Sample-/master/Docs/Android2.png)
+  
+  
 
 ## App running in Windows
  
-~~~
+![UWP Main Screen](https://raw.githubusercontent.com/rcgny/Xamarin-Forms-Sample-/master/Docs/UWP1.png)
 
-~~~
+  ![UWP Detail Screen](https://raw.githubusercontent.com/rcgny/Xamarin-Forms-Sample-/master/Docs/UWP2.png)
